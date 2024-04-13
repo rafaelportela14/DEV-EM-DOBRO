@@ -1,0 +1,23 @@
+
+.h1{
+    display: block;
+    margin:20xp;
+    padding: 20px;
+}
+
+.link{
+    display: block;
+    margin: 20px;
+}
+
+.link-site{
+    color:blue;
+}
+
+.link a img{
+    max-width: 200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    
+}

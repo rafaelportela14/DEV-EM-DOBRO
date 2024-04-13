@@ -1,0 +1,11 @@
+.descricao{
+    background-color: orange;
+}
+
+*{
+    margin: 10px;
+}
+
+.promocao{
+    border: dashed 10px blue;
+}

@@ -1,0 +1,21 @@
+html{
+    background-color: gray;
+    font-size: 32px;
+}
+
+body{
+    background-color: burlywood;
+    width: 50%;
+    font-size: 3rm;
+}
+.pai{
+    background-color: plum;
+    width: 50%;
+    font-size: 1.5rm;
+}
+
+.filha{
+    background-color: bisque;
+    width: 50%;
+    font-size: 0.5rm;
+}

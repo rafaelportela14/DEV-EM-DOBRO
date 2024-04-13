@@ -1,0 +1,11 @@
+.produto{
+    padding: 20px;
+    background-color: aqua;
+}
+
+.valor-total{
+    padding: 01px;
+    margin: 20px;
+    margin-left: 05px;
+    background-color: bisque;
+}
