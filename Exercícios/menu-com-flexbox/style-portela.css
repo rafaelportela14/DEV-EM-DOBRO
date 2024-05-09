@@ -1,0 +1,108 @@
+.cabecalho {
+
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo img{
+
+    width: 45px;
+    height: 42px;
+    top: 45px;
+    left: 44.41px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+.logo span{
+    color: black;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23.5px;
+    text-align: left;
+    text-decoration-line: none
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
+    list-style-type: none;
+    text-decoration-line: none
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.63px;
+    text-align: left;
+
+   
+}
+
+.menu .cadastrar{
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+a:hover{
+    background-color: #5BC241;
+    border-radius: 05px;
+    
+    color: white;
+}
+
+
+@media(max-width:425px){
+
+    .logo{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav{
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu{
+        display: block;
+        margin-top: 30px;
+        
+        
+        
+    }
+
+    .menu li{
+        margin-left: 0px;
+        text-align: justify;
+        
+    }
+
+    .menu a{
+        display: block;
+        padding: 20px;
+        
+    }
+
+    a:hover{
+        background-color: #5BC241;
+        border-radius: 05px;
+        color: white;
+        
+    }
+}

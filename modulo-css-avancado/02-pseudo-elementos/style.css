@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+p::first-letter {
+    color: coral;
+}
+
+p::first-line {
+    color: blue;
+}
+
+.first-line::first-letter {
+    color: chocolate;
+}
+
+li::marker {
+    padding: 30px;
+    color: red;
+    font-size: 33px;
+}
+
+h2::before {
+    content: url(favicon-32x32.png);
+}
+ /* pode usar o after no lugar do before  */
+/* h2::before {
+    content: "teste ";
+} */
+
+/* h2::before {
+    content:"";
+    background-color: url(favicon-32x32.png) center center no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+} */
+
+h2::af

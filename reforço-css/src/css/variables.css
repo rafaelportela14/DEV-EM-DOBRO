@@ -1,0 +1,8 @@
+:root{
+    --primary-soft: rgb(139, 172, 218);
+    --primary-medium: rgb(0, 255, 247); 
+
+    --neutral-dark: rgb(13, 25, 43); 
+    --neutral-medium: rgb(20, 37, 61); 
+    --neutral-soft: rgb(47, 65, 91); 
+}

@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Public Sans',sans-serif;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex img{
+    
+    margin: 50px;
+}
+
+
+.flex .coluna{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.descricao{
+   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 25%;
+    left: 20%;
+    font-size: 25px;
+    color: white;
+    
+}
+
+h6{
+    
+    font-size: 13px;
+    font-weight:100;
+}

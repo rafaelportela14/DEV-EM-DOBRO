@@ -1,0 +1,29 @@
+.flex-0{
+    flex: 0;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+}
+
+
+.wrap {
+
+    flex-wrap: wrap;
+}
+
+.item.item-3 {
+    order: 1;
+}
+
+.align-self .item5 {
+    align-self: auto;
+
+}

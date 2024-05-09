@@ -1,0 +1,28 @@
+.fa-facebook {
+    color: orange;
+    font-size: 30px;
+}
+
+.fa-facebook:hover {
+    color: red;
+}
+
+.fa-instagram {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.fa-instagram:hover {
+    color: black;
+}
+
+.fa-whatsapp-square {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-whatsapp-square:hover {
+    color: yellowgreen;
+    
+    
+}

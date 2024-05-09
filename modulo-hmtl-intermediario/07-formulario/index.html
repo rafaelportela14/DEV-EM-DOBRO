@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <h3>Formulário com GET</h3>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+
+        <input type="text" name="q" id="">
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <H3>Formulário com POST</H3>
+
+    <form action="index.html" method="post">
+        <input type="text" name="q" id="">
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <h3>Formulário de Login com Facebook</h3>
+    <form action="index.html" method="get">
+        <input type="text" name="nome" id="nome" placeholder="nome" required>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome"><br>
+        <input type="text" name="cel-ou-email" id="cel-ou-email" placeholder="Celular ou Email">
+
+        <input type="password" name="senha" id="senha" placeholder="Nova Senha"><br><br>
+
+        <label for="">Data de Nascimento</label><br>
+
+        <select name="dia" id="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">11</option>
+            <option value="11">12</option>
+            <option value="12">13</option>
+            <option value="13">14</option>
+            <option value="14">15</option>
+            <option value="15">16</option>
+            <option value="16">17</option>
+            <option value="17">18</option>
+            <option value="18">19</option>
+            <option value="19">20</option>
+            <option value="20">21</option>
+            <option value="21">22</option>
+            <option value="22">23</option>
+            <option value="23">24</option>
+            <option value="24">25</option>
+            <option value="25">26</option>
+            <option value="26">27</option>
+            <option value="27">28</option>
+            <option value="28">29</option>
+            <option value="29">30</option>
+            <option value="30">31</option>
+            
+        </select>
+
+        <select name="mes" id="mes">
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereio</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outobro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+        </select>
+
+        <select name="ano" id="ano">
+            <option value="1960">1960</option>
+            <option value="1970">1970</option>
+            <option value="1980">1980</option>
+            <option value="1990">1990</option>
+            <option value="2000">2000</option>
+        </select> <br><br>
+
+        <label for="">Gênero</label><br>
+
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino" checked>
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="personalizado" value="personalizado">
+        
+        <br>
+        <br>
+        
+        <input type="file" name="arquivo" id="arquivo"><br><br>
+        <input type="submit" value="Enviar">
+
+        
+    </form>
+
+
+</body>
+</html>

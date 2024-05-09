@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Milky';
+    src: url('fontes/Milky.ttf');
+}
+
+p{
+    font-family: 'Milky';
+}
